@@ -1,0 +1,7 @@
+.testdiv {
+  background: blue;
+  transition: all 1s;
+}
+.testdiv-red {
+  background: red;
+}

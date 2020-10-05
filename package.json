@@ -1,0 +1,24 @@
+{
+  "name": "test-storybook-vue-docs-render",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@storybook/addon-actions": "^6.0.25",
+    "@storybook/addon-essentials": "^6.0.25",
+    "@storybook/addon-links": "^6.0.25",
+    "@storybook/vue": "^6.0.25",
+    "babel-loader": "^8.1.0",
+    "react-is": "^16.13.1"
+  },
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
